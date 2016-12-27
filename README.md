@@ -6,7 +6,7 @@ libdnn.graph
 # Prerequisite
 You need
 - A Graphic Processing Unit (GPU) of NVIDIA
-- Linux/Unix (Ubuntu is fine. But I haven't had the time to tested it Mac OS X yet.)
+- Linux/Unix
 - Install [NVIDIA CUDA toolkit](https://developer.nvidia.com/cuda-toolkit) (at least CUDA 6.5)
 
 Mine is **Ubuntu 14.04** and **NVIDIA GTX-660**.
