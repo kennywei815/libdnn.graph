@@ -85,9 +85,9 @@ dnn-train -f train.script
 #### Script file syntax
 ```
 iteration 20
-dnn-train a --input-dim 351 phone.transcribed.dat     common_layers.model  phone_top.model
-dnn-train a --input-dim 0   pattern.transcribed.dat   common_layers.model  pattern_top.model
-dnn-train b --input-dim 351 pattern.untranscribed.dat common_layers.model  pattern_top.model
+dnn-train a --input-dim 351 phone.transcribed.dat     shared_layers.model  phone_top.model
+dnn-train a --input-dim 0   pattern.transcribed.dat   shared_layers.model  pattern_top.model
+dnn-train b --input-dim 351 pattern.untranscribed.dat shared_layers.model  pattern_top.model
 ```
 
 ### dnn-predict
