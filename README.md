@@ -3,8 +3,6 @@ libdnn.graph
 
 [libdnn.graph](https://github.com/kennywei815/libdnn.graph) is an open source CUDA-based C++ Library of Deep Neural Network. It extended the [libdnn](https://github.com/botonchou/libdnn) toolkit ability to implement any kind of computation network and multi-task learning as in the CNTK toolkit. With just a snippet of code, users can easily extend it with any activation function, computation node, or objective function.
 
-Neural Network (NN), esp. the **Deep Neural Network (DNN)**, is a very powerful machine learning (ML) algorithm which have shown significant success on numerous difficult supervised ML tasks such as **Automatic Speech Recognition (ASR)**, **Pattern Recognition and Computer Vision (CV)**, **Natural Language Processing (NLP)**, etc.
-
 # Prerequisite
 You need
 - A Graphic Processing Unit (GPU) of NVIDIA
