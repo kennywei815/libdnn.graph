@@ -1,0 +1,24 @@
+  t_config.train_fn     = 
+  t_config.model_in     = 
+  t_config.model_out    = 
+
+  t_config.input_dim    = 
+  t_config.n_type       = 
+  t_config.n_filename   = 
+  t_config.base                = 
+
+  t_config.ratio            = 
+  t_config.batchSize    = 
+  t_config.learningRate = 
+  t_config.minValidAcc  = 
+  t_config.maxEpoch     = 
+
+  t_config.cache_size   = 
+
+
+  //CudaMemManager<float>::setCacheSize(cache_size);
+
+  // Set configurations
+  config.learningRate = t_config.learningRate;
+  config.minValidAccuracy = t_config.minValidAcc;
+  config.maxEpoch = t_config.maxEpoch;
