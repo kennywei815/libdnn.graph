@@ -92,8 +92,8 @@ obj/%.d: %.cpp
 
 -include $(addprefix obj/,$(subst .cpp,.d,$(SOURCES)))
 
-.PHONY: ctags
+.PHONY: ctags clean
 ctags:
 	@ctags -R --langmap=C:+.cu *
 clean:
-	rm -rf $(EXECUTABLES) obj/*
+	rm -rf bin/* obj/*
