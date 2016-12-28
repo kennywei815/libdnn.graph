@@ -1,7 +1,7 @@
 libdnn.graph
 ======
 
-[libdnn.graph](https://github.com/kennywei815/libdnn.graph) is an open source CUDA-based C++ Library of Deep Neural Network. It extended the [libdnn](https://github.com/botonchou/libdnn) toolkit ability to implement any kind of computation network and multi-task learning as in the CNTK toolkit. With just a snippet of code, users can easily extend it with any activation function, computation node, or objective function.
+[libdnn.graph](https://github.com/kennywei815/libdnn.graph) is an open source CUDA-based C++ Library of Deep Neural Network. It extended the [libdnn](https://github.com/botonchou/libdnn) toolkit with the ability to implement any **computation network** and **multi-task learning** as in the CNTK toolkit, while retains a **high performance** and **easy-to-extend** architecture. With just a snippet of code, users can easily extend it with any activation function, computation node, or objective function.
 
 # Prerequisite
 You need
